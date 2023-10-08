@@ -13,10 +13,10 @@ while True:
     i = (a+b)/2
     ix = funcx(i)
     
-    print(i, " tahmin ", (b-a)/2, " hatı payı" )
+    print(i, " 	ballpark figure ", (b-a)/2, " error margin " )
     
     if (b-a)/2 < e:
-        print("hata payı ", (b-a)/2, "tahmin ", (b+a)/2)
+        print("error margin ", (b-a)/2, "	ballpark figure ", (b+a)/2)
         break
     
     if (abs(ax)/ax) + (abs(ix)/ix):
@@ -26,7 +26,7 @@ while True:
         b = i
         bx = funcx(b)
     else:
-        print("doğru sayı", i)
+        print("single position ", i)
         break 
     
     
