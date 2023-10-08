@@ -16,7 +16,7 @@ while True:
     print(i, " 	ballpark figure ", (b-a)/2, " error margin " )
     
     if (b-a)/2 < e:
-        print("error margin ", (b-a)/2, "	ballpark figure ", (b+a)/2)
+        print("error margin ", (b-a)/2, " ballpark figure ", (b+a)/2)
         break
     
     if (abs(ax)/ax) + (abs(ix)/ix):
